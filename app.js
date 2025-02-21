@@ -30,3 +30,34 @@ window.addEventListener("scroll", (event) => {
         }
     })
 });  
+
+
+
+// cursor
+const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+
+const cursor2 = document.querySelector('.cursor2');
+
+document.addEventListener('mousemove', e => {
+    cursor2.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor2.classList.add("expand");
+
+    setTimeout(() => {
+        cursor2.classList.remove("expand");
+    }, 500)
+})

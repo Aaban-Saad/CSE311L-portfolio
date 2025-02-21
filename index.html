@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aaban Saad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet"> -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    <div class="banner">
-        <div class="bg bg-1"></div>
-        <div class="bg bg-2"></div>
-        <div class="bg bg-3"></div>
-        <h1>LunDev!</h1>
-        <div class="bg bg-4"></div>
-        <div class="bg bg-5"></div>
-        <div class="bg bg-6"></div>
-        <div class="bg bg-7"></div>
-        <div class="bg bg-8"></div>
-        <div class="bg bg-9"></div>
-    </div>
+    <main>
+        <section class="">
+            <div class="banner">
+                <div class="bg bg-1"></div>
+                <div class="bg bg-2"></div>
+                <div class="bg bg-3"></div>
+                <h1>Aaban Saad</h1>
+                <div class="bg bg-4"></div>
+                <div class="bg bg-5"></div>
+                <div class="bg bg-6"></div>
+                <div class="bg bg-7"></div>
+                <div class="bg bg-8"></div>
+                <div class="bg bg-9"></div>
+            </div>
 
-    <div class="tab intro">
-        <h2 class="animation-show">Lu Dev</h2>
-        <img src="img/logo.jpg" alt="" class="animation-show">
-        <p class="animation-show">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque rem obcaecati libero eaque veniam est necessitatibus consectetur commodi non rerum, sapiente distinctio dignissimos! Dolorem eaque velit quam tenetur sapiente, qui veniam iste beatae officiis facilis aut expedita commodi, voluptatibus ullam voluptates! Explicabo, nisi. Odit, neque aliquid maiores minima cumque iusto?
-        </p>
-        <button class="animation-show">Subcribe</button>
-    </div>
+            <div class="tab intro flex flex-col gap-7 px-10">
+                <h2 class="animation-show font-bold text-5xl">Aaban Saad</h2>
+                <img src="img/me2.png" alt="profile photo" style="width: 200px; height: 200px;">
 
-    <div class="tab library">
-        <div class="animation-show">
-            <img src="img/9.jpg">
-            <p>Image Name</p>
-        </div>
-        <div class="animation-show">
-            <img src="img/10.jpg">
-            <p>Image Name</p>
-        </div>
-        <div class="animation-show">
-            <img src="img/11.jpg">
-            <p>Image Name</p>
-        </div>
-        <div class="animation-show">
-            <img src="img/12.jpg">
-            <p>Image Name</p>
-        </div>
-    </div>
-    <script src="app.js"></script>
+                <p class="animation-show text-lg">
+                    Aaban Saad is a Computer Science and Engineering (CSE) student at North South University (NSU) with
+                    a
+                    passion for technology and design. Skilled in web development with React and Next.js, he also has
+                    expertise
+                    in AI and Python. Beyond coding, Aaban is proficient in UI/UX design and graphic design, working
+                    with
+                    tools
+                    like Photoshop, Illustrator, Inkscape, Protopea, and Blender. His diverse skill set allows him to
+                    blend
+                    creativity with technical problem-solving, making him a versatile and innovative developer. 🚀
+                </p>
+                <a href="mailto:aabansaad@gmail.com?subject=Contact%20Request&body=Hello,%20I%20would%20like%20to%20get%20in%20touch!"
+                    class="animation-show bg-red-500 px-10 py-3 font-bold text-l rounded-xl hover:shadow-xl inline-block text-white text-center">
+                    Contact
+                </a>
+            </div>
+
+            <div class="tab library">
+                <div class="animation-show">
+                    <img src="img/ai.jpeg">
+                    <p>AI and Python</p>
+                </div>
+                <div class="animation-show">
+                    <img src="img/webdev.jpeg">
+                    <p>Web Development</p>
+                </div>
+                <div class="animation-show">
+                    <img src="img/graphic design.jpeg">
+                    <p>Professional Graphic Design</p>
+                </div>
+                <div class="animation-show">
+                    <img src="img/figma.jpeg">
+                    <p>UI UX Design</p>
+                </div>
+            </div>
+        </section>
+
+        <footer
+            class="h-[200px] md:h-[300px] bg-teal-500/20 md:mt-20 flex flex-col items-center justify-center m-10 rounded-xl text-white">
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/Aaban-Saad" target="_blank" class="hover:text-gray-400">
+                    <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.604-3.369-1.34-3.369-1.34-.454-1.152-1.11-1.46-1.11-1.46-.906-.62.069-.607.069-.607 1.002.07 1.53 1.03 1.53 1.03.89 1.525 2.335 1.085 2.904.83.09-.647.35-1.085.637-1.335-2.22-.252-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.682-.103-.253-.446-1.27.098-2.646 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0112 6.845c.852.004 1.71.114 2.51.335 1.91-1.295 2.75-1.025 2.75-1.025.544 1.376.2 2.393.098 2.646.64.698 1.03 1.59 1.03 2.682 0 3.845-2.34 4.687-4.565 4.935.36.31.68.92.68 1.855 0 1.338-.012 2.417-.012 2.743 0 .268.18.576.688.48C19.138 20.165 22 16.416 22 12c0-5.523-4.477-10-10-10z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/aaban-saad/" target="_blank" class="hover:text-gray-400">
+                    <svg class="w-6 h-6 inline" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M19 0h-14c-2.8 0-5 2.2-5 5v14c0 2.8 2.2 5 5 5h14c2.8 0 5-2.2 5-5v-14c0-2.8-2.2-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.5c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.5h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.9v1.36h.04c.4-.75 1.38-1.54 2.85-1.54 3.05 0 3.61 2 3.61 4.59v5.59z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <p class="mt-2 text-sm">&copy; <span id="year"></span> Aaban Saad. All rights reserved.</p>
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+        </footer>
+
+        <div class="cursor"></div>
+        <div class="cursor2"></div>
+        <script src="app.js"></script>
+        <script type="module" src="bubbles.ts"></script>
+    </main>
 </body>
+
 </html>
